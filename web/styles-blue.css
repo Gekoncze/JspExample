@@ -1,0 +1,98 @@
+html {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    background: #ffffff;
+    color: #237aff;
+    font-family: "Lucida Sans";
+}
+
+body {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+h1 {
+    color: #1d68da;
+}
+
+h2 {
+    color: #1d68da;
+}
+
+h3 {
+    color: #1d68da;
+}
+
+textarea {
+    border: 2px solid #1d68da;
+    font-family: "Lucida Console";
+    padding: 0.5em;
+    color: #237aff;
+}
+
+input {
+    border: 2px solid #1d68da;
+    font-family: "Lucida Console";
+    color: #237aff;
+}
+
+canvas {
+    border: 2px solid #1d68da;
+}
+
+.code {
+    border: 0px solid #1d68da;
+    font-family: "Lucida Console";
+    color: #237aff;
+}
+
+button {
+    border: 2px solid #1d68da;
+    color: #1d68da;
+    background: #ffffff;
+    font-family: "Lucida Sans";
+}
+
+button.small {
+    border: 0px;
+    font-family: "Lucida Sans";
+    background: #1d68da;
+    color: #ffffff;
+    cursor: pointer;
+    padding: 0;
+    margin: 0;
+}
+
+form.small {
+    display: inline-block;
+}
+
+main {
+    padding-top: 0em;
+    padding-bottom: 1em;
+    padding-left: 5em;
+    padding-right: 5em;
+    flex: 1;
+}
+
+header {
+    padding-top: 2em;
+    padding-bottom: 0em;
+    padding-left: 5em;
+    padding-right: 5em;
+}
+
+footer {
+    background: #1d68da;
+    color: #ffffff;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 5em;
+    padding-right: 5em;
+}

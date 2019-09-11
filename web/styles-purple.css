@@ -1,0 +1,98 @@
+html {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    background: #ffffff;
+    color: #4238aa;
+    font-family: "Lucida Sans";
+}
+
+body {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+h1 {
+    color: #372f8e;
+}
+
+h2 {
+    color: #372f8e;
+}
+
+h3 {
+    color: #372f8e;
+}
+
+textarea {
+    border: 2px solid #372f8e;
+    font-family: "Lucida Console";
+    padding: 0.5em;
+    color: #4238aa;
+}
+
+input {
+    border: 2px solid #372f8e;
+    font-family: "Lucida Console";
+    color: #4238aa;
+}
+
+canvas {
+    border: 2px solid #372f8e;
+}
+
+.code {
+    border: 0px solid #372f8e;
+    font-family: "Lucida Console";
+    color: #4238aa;
+}
+
+button {
+    border: 2px solid #372f8e;
+    color: #372f8e;
+    background: #ffffff;
+    font-family: "Lucida Sans";
+}
+
+button.small {
+    border: 0px;
+    font-family: "Lucida Sans";
+    background: #372f8e;
+    color: #ffffff;
+    cursor: pointer;
+    padding: 0;
+    margin: 0;
+}
+
+form.small {
+    display: inline-block;
+}
+
+main {
+    padding-top: 0em;
+    padding-bottom: 1em;
+    padding-left: 5em;
+    padding-right: 5em;
+    flex: 1;
+}
+
+header {
+    padding-top: 2em;
+    padding-bottom: 0em;
+    padding-left: 5em;
+    padding-right: 5em;
+}
+
+footer {
+    background: #372f8e;
+    color: #ffffff;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 5em;
+    padding-right: 5em;
+}

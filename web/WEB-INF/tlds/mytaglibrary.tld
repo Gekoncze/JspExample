@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<taglib version="2.1" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-jsptaglibrary_2_1.xsd">
+  <tlib-version>1.0</tlib-version>
+  <short-name>mytaglibrary</short-name>
+  <uri>/WEB-INF/tlds/mytaglibrary</uri>
+  <!-- A validator verifies that the tags are used correctly at JSP
+          translation time. Validator entries look like this: 
+       <validator>
+           <validator-class>com.mycompany.TagLibValidator</validator-class>
+           <init-param>
+              <param-name>parameter</param-name>
+              <param-value>value</param-value>
+           </init-param>
+       </validator>
+    -->
+  <tag>
+    <name>MyCode</name>
+    <tag-class>tags.MyCodeTagHandler</tag-class>
+    <body-content>scriptless</body-content>
+  </tag>
+  <tag-file>
+    <name>MyHeader</name>
+    <path>/WEB-INF/tags/MyHeader.tag</path>
+  </tag-file>
+  <tag-file>
+    <name>MyFooter</name>
+    <path>/WEB-INF/tags/MyFooter.tag</path>
+  </tag-file>
+  <tag-file>
+    <name>MyHeadSettings</name>
+    <path>/WEB-INF/tags/MyHeadSettings.tag</path>
+  </tag-file>
+  <tag-file>
+    <name>MyPreview</name>
+    <path>/WEB-INF/tags/MyPreview.tag</path>
+  </tag-file>
+</taglib>
